@@ -4,7 +4,7 @@ Users can find live music locally based on their taste, location, and/or friends
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 |:------|:--------------|
