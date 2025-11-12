@@ -77,3 +77,6 @@ coverage.xml
 # --- Logs ---
 *.log
 logs/
+
+# --- Misc ---
+*.txt
