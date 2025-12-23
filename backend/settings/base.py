@@ -54,6 +54,7 @@ INSTALLED_APPS = [
 
     # Your custom apps
     "users",                        # User accounts, profiles, authentication
+    "scraper",                      # Web scraping functionality
     # "social",                       # Social media features (posts, likes, etc.)
 ]
 
