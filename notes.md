@@ -1,9 +1,9 @@
 # Virtual Environment
 
-Initialize virtual environment
+## Initialize virtual environment
 
-    * `python -m venv env`
-    * if doesn't work `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+* `python -m venv env`
+* if doesn't work `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Activate virtual environment   
 
@@ -18,11 +18,16 @@ Initialize virtual environment
 
 ## Dependencies Used here
 
-* django-cors-headers - fix cross origin request issue
-* djangorestframework\simplejwt - authentification
-* python-dotenv - load environment variables
+* `django-cors-headers` - fix cross origin request issue
+* `djangorestframework\simplejwt` - authentification
+* `python-dotenv` - load environment variables
 
 # Backend
+
+## General Notes
+
+* Django uses object relational mapping (ORM)
+* Serializer converts python code or objects into JSON or vice versa for API
 
 ## Start django project
 
@@ -33,9 +38,10 @@ Initialize virtual environment
 * Change to project directory `cd backend`
 * `python manage.py startapp api`
 
-## settings.py
+## Configure Settings
 
-* reference `configure settings` commit in repo
+* Reference `configure settings` commit in repo
+* All changes made in `settings.py`
 
 # Frontend
 
