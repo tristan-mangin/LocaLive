@@ -11,6 +11,7 @@ Install all dependencies
     * Create `requirements.txt` outside of `env`
     * List dependencies in this file
     * `pip install -r requirements.txt`
+    * Move `requirements.txt` into Django project folder
 
 Dependencies Used here
     * django-cors-headers - fix cross origin request issue
@@ -25,6 +26,9 @@ Start django project
 Make django app
     * Change to project directory `cd backend`
     * `python manage.py startapp api`
+
+settings.py
+    * reference `configure settings` commit in repo
 
 # Frontend
 
