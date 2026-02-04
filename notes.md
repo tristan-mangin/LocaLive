@@ -43,5 +43,16 @@
 * Reference `configure settings` commit in repo
 * All changes made in `settings.py`
 
+## Migrations
+
+* Whenever start project or make significant changes to data model
+* Create migrations that need to be done `python manage.py makemigrations`
+* Actually migrate `python manage.py migrate`
+
+## Run the django app
+
+* `python manage.py runserver`
+* May show up as not found - use a defined url from `urls.py`
+
 # Frontend
 
